@@ -1882,7 +1882,7 @@ body {
   color: #23155b;
 }
 .cid-r7VpEeHZ8D .mbr-text {
-  color: #555555;
+  color:  #23155b;
 }
 .cid-r7VpEeHZ8D .card-title B {
   color: #23155b;
@@ -1926,7 +1926,7 @@ body {
   color: #23155b;
 }
 .cid-r849cgd7Jv .mbr-text {
-  color: #2c1616;
+  color: #23155b;
 }
 .cid-r849cgd7Jv .card-title B {
   color: #23155b;
@@ -2004,4 +2004,98 @@ body {
 }
 .cid-r80c5SdwkU .mbr-list LI {
   color: #ffffff;
+}
+@media (min-width: 768px) {
+  .carrusel {
+    padding: 0 7rem;
+  }
+  .mundo { 
+    text-align: right;
+  }
+
+  .cid-qRBy11cYkr .navbar-dropdown {
+    padding: .5rem 3rem;
+    position: fixed;
+  }
+
+  .mt-10{
+
+  margin-top: 6rem;
+
+  }
+}
+
+@media (max-width: 767px) {
+  .carrusel {
+    padding: 0 1rem;
+  }
+  .mundo { 
+    text-align: center;
+  }
+
+  .cid-qRBy11cYkr .navbar-dropdown {
+    padding: .1rem 1rem;
+    position: fixed;
+  }
+
+  .mt-10{
+
+  margin-top: 6rem;
+
+  }
+}
+
+.carrusel2{
+  padding: 0 1rem;
+}
+
+.cid-qRACJq67ye .mbr-section-title1-2 {
+    
+    position: relative;
+    color: #0c042b;
+}
+.clientes-slider {
+    
+  background: #ffffff;
+}
+#recuadro:hover > .card-box > #ver-boton {
+    
+  display: block;
+  
+
+}
+#ver-boton {
+    
+  display: none;
+  border-radius: 25px;
+
+
+}
+#recuadro:hover {
+    
+  border: 1px solid #d4a100;
+  
+
+}
+.porque {
+    
+  color: #0c042b;
+  
+
+}
+#back-top {
+  bottom: 20px;
+  position: fixed;
+  right: 50px;
+  z-index: 9;
+  transition: 120ms;
+}
+.bot-subir {
+  background: #0c042b;
+}
+#recuadro-2:hover {
+    
+  border: 1px solid #0c042b;
+  
+
 }
